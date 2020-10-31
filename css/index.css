@@ -203,30 +203,34 @@ h2, h3{
 .info{
     display:flex;
     flex-wrap:wrap;
-    justify-content: space-evenly;
-    padding:5%;
+    padding:2%;
     margin:4%;
+}
+.info img{
+    width:300px;
+}
+.info div{
+    margin:10px;
 }
 
 .image1{
     border-bottom:2px dashed black;
-   display:flex;
-   flex-wrap: wrap;
+    flex-basis: 0;
 
 }
 .image2{
     border-bottom:2px dashed black;
-    
+    flex-basis: 0;
     
 }
 .image3{
     border-bottom:2px dashed black;
-   
+    flex-basis: 0;
     
 }
 .image4{
     border-bottom:2px dashed black;
-    
+    flex-basis: 0;
     
 }
 .about{
@@ -261,4 +265,7 @@ button{
     color:black;
     margin:0 3%;
   
+}
+.imageTxt p{
+    width:100%;
 }
